@@ -1,0 +1,216 @@
+<style>
+    @media( max-width: 600px){
+  p{
+    font: size 1.25rem;
+  }
+}
+@media( max-width: 800px){
+  p{
+    font: size 1.5rem;
+  }
+}
+#viewport{
+    height:10vh;
+}
+#header{
+  height:10vh;
+}
+#welcome-section{
+  height:689px;
+  font-family: fantasy;
+  color:black;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://media.tenor.com/images/83d6a5ed40a24164dfe1e4e19fad23d9/tenor.gif);
+
+}
+
+nav ul{
+margin:0;
+padding:0;
+list-style:none;
+
+}
+nav li{
+  display:inline-block;
+  margin-left:70px;
+  padding-bottom: 20px;
+}
+nav a{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#navbar{
+  position:right;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+}
+body{
+  background-color:grey;
+}
+
+#links{
+  list-style: none;
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+  font-size:40px;
+  font-family: fantasy;
+  color:white;
+}
+.plist{
+  text-align: center;
+  font-size: 30px;
+  font-family:fantasy;
+  color:white;
+}
+h3{
+  text-align: left;
+  font-size: 30px;
+  color:black;
+  font-family:fantasy;
+}
+p{
+  text-align: left;
+  font-size: 20px;
+  color:white;
+  font-family:fantasy;
+}
+#header{
+  font-family: fantasy;
+  color:white;
+  font-size: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+</style>
+
+<html>
+<head>
+  <titel>My personal portfolio page</titel>
+  <header id="header">
+    My personal portfolio page
+  </header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <nav id="navbar">
+    <ul>
+     <li><a class="nav-link" href="#Projects" >Projects</a></li>
+     <br/>
+      <li><a class="nav-link" href="#Decription of projects" >Decription of projects</a></li>
+      <br/>
+    </ul>
+  </nav>
+  
+
+ 
+    
+  <section id="welcome-section" >
+        <h1>Welcome</h1>
+    </section>
+
+    <section id="projects">
+        <h2 class="project-tile">Projects</h2>
+        <p class="plist">I have done 4 adisional projects</p>
+        <ul id="links">
+          <li><a href="http://192.168.0.117:8084">Tribute to Nelson Mandela</a> </li>
+          <li><a href="http://192.168.0.117:8085">Survey form for freecodecamp</a></li>
+          <li><a href=" http://192.168.0.117:8080">Toyota product landing page</a></li>
+          <li><a href="  http://192.168.0.117:8085">Tecnical document</a></li>
+        </ul>
+     
+    </section>
+
+    <section id="Decription of projects">
+      <h2> Decription of projects:</h2>
+      <h3>Tribute page:</h3>
+      <p>
+        User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+        <br/>
+        User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+        <br/>
+        User Story #3: I should see a div element with a corresponding id="img-div".
+        <br/>
+        User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+        <br/>
+        User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+        <br/>
+        User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+        <br/>
+        User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+</p>
+     
+      <h3>Survey form:</h3>
+      <p>
+        User Story #1: I can see a title with id="title" in H1 sized text.
+        <br/>
+        User Story #2: I can see a short explanation with id="description" in P sized text.
+        <br/>
+        User Story #3: I can see a form with id="survey-form".
+        <br/>
+        User Story #4: Inside the form element, I am required to enter my name in a field with id="name".
+        <br/>
+        User Story #5: Inside the form element, I am required to enter an email in a field with id="email".
+        <br/>
+        User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error.
+        <br/>
+        User Story #7: Inside the form, I can enter a number in a field wit.
+      </p>
+
+      <h3>Product landing page:</h3>
+      <p>
+        User Story #1: My product landing page should have a header element with a corresponding id="header".
+        <br/>
+        User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+        <br/>
+        User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+        <br/>
+        User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+        <br/>
+        User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
+        <br/>
+        User Story #6: I can watch an embedded product video with id="video".
+        <br/>
+        User Story #7: My landing page has a form element with a corresponding id="form".
+      </p>
+     
+      <h3>Tecnical document</h3>
+      <p>
+        User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
+        <br/>
+        User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
+        <br/>
+        User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
+        <br/>
+        User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
+        <br/>
+        User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
+        <br/>
+        User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
+        <br/>
+        User Story #7: The .main-section elements should contain at least 5 li items total (not each).
+      </p>
+    </section>
+    
+   
+
+    <a href="https://github.com/Mienks?tab=repositories" id="profile-link" target="_blank"> Link to git hub:</a>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+    </script>
+</body>
+</html>
